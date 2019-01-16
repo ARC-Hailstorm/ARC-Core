@@ -1,5 +1,5 @@
 package org.firstinspires.ftc.teamcode;
-
+// this is maybe our autonomus
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotorController;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.ServoController;
 
-@Autonomous(name = "Simple Autonomous", group = "ARC")
+@Autonomous(name = "Drive Forward Test Auto", group = "ARC")
 public class DriveFowardTest extends LinearOpMode {
     private DcMotorController MC_Alpha;    // Motor Controller in port 0 of Core, alpha
     private DcMotorController MC_Beta;    // Motor Controller in port 1 of Core, also beta
